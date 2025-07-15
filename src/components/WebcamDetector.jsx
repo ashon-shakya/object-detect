@@ -72,9 +72,7 @@ export default function WebcamDetector() {
         {predList.map((p, i) => {
           return (
             <div
-              className={`bg-blue-${
-                i % 2 == 0 ? "100" : "200"
-              } text-center text-gray-800 px-4 py-2 uppercase`}
+              className={`bg-white border-b-2 border-gray-500 text-center text-gray-800 px-4 py-2 uppercase`}
             >
               {p}
             </div>
